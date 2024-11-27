@@ -33,7 +33,7 @@ export const Home: React.FC = () => {
                 },
                 className: 'bg-white',
               }}
-              value={numCalculations}
+              value={numCalculations === 0 ? '' : numCalculations}
               onChange={(e) => setNumCalculations(Number(e.target.value))}
               fullWidth
               variant="outlined"
