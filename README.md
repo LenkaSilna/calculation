@@ -1,44 +1,44 @@
-## Calculation Training App
+# Calculation Training App
 Simple React application for practicing basic arithmetic calculations, inspired by Dr. Kawashima's Brain Training.
 
-# Features
+## Features
 Configurable number of calculations (20-60)
 Basic arithmetic operations (+, -, \*)
 Real-time progress tracking
 Timer functionality
 Immediate feedback on answers
 
-# Tech Stack
+## Tech Stack
 React 18
 TypeScript
 Tailwind
 Material UI
 Jest & React Testing Library
 
-Installation
+## Installation
 
-# Clone the repository
+### Clone the repository
 ```
 git clone https://github.com/LenkaSilna/calculation.git
 cd calculation
 ```
 
-# Install dependencies
+### Install dependencies
 ```
 npm install
 ```
 
-# Development
+### Development
 ```
 npm run dev
 ```
 
-# Run tests
+### Run tests
 ```
 npm test
 ```
 
-# Run tests with coverage
+### Run tests with coverage
 ```
 npm run test:coverage
 ```
